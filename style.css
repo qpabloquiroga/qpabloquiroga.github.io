@@ -92,6 +92,7 @@ a {
     color: black;
 }
 
-.githubLogo {
-    width: 5vw;
+.logo {
+    width: 4vw;
+    margin-inline: 1vw;
 }
