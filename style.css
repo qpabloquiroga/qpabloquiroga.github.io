@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+body {
+    background: rgb(255,140,0);
+    background: radial-gradient(circle, rgba(255,140,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+
 .wrapper {
     width: 100vw;
     height: 100vh;
@@ -68,4 +73,25 @@ table {
 .box3 {
     grid-row-start: 5;
     grid-row-end: 6;
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 2vw;
+}
+
+a {
+    font-family: 'Young Serif', serif;
+    font-size: 2vw;
+    color: black;
+}
+
+.githubLogo {
+    width: 5vw;
 }
