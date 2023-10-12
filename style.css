@@ -58,6 +58,7 @@ body {
     display: grid;
     grid-template-rows: repeat(6, 1fr);
     place-items: center;
+    
 }
 
 .box1 {
@@ -77,22 +78,25 @@ body {
 
 h1 {
     font-family: 'Young Serif', serif;
-    font-size: 5vw;
+    font-size: 10vh;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h2 {
     font-family: 'Young Serif', serif;
-    font-size: 2vw;
+    font-size: 4vh;
+    text-align: center;
 }
 
 a {
     font-family: 'Young Serif', serif;
-    font-size: 2vw;
+    font-size: 4vh;
     color: black;
+    text-align: center;
 }
 
 .logo {
-    width: 4vw;
-    margin-inline: 1vw;
+    width: 8vh;
+    margin-inline: 2vh;
 }
